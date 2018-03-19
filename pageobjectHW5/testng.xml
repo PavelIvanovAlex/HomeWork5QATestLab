@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumTest" verbose="1">
+    <test name="Test">
+        <parameter name="browser" value="FF" />
+        <classes>
+
+            <class name="MyTestNGTest" />
+        </classes>
+    </test>
+    <test name="Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+
+            <class name="MyTestNGTest" />
+        </classes>
+    </test>
+    <test name="Test">
+        <parameter name="browser" value="IE" />
+        <classes>
+
+            <class name="MyTestNGTest" />
+        </classes>
+    </test>
+</suite>
