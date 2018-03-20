@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.505" tests="3" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.948" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,28 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initDriverTest" classname="MyTestNGTest" time="31.991">
-    <failure message="java.net.SocketException: Connection reset&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;PC&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: InternetExplorerDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-java.net.SocketException: Connection reset
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
-Driver info: driver.version: InternetExplorerDriver
-	at MyTestNGTest.initDriverTest(MyTestNGTest.java:22)
-Caused by: java.net.SocketException: Connection reset
-	at MyTestNGTest.initDriverTest(MyTestNGTest.java:22)
-</failure>
-    <system-out><![CDATA[getDriver================IE
-]]></system-out>
-    <system-err><![CDATA[Started InternetExplorerDriver server (64-bit)
-3.9.0.0
-Listening on port 47384
-Only local connections are allowed
-]]></system-err>
-  </testcase>
-  <testcase name="shopTest" classname="MyTestNGTest" time="0">
-    <skipped message="java.net.SocketException: Connection reset&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;PC&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
-  </testcase>
-  <testcase name="tearDown" classname="MyTestNGTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="shopTest" classname="MyTestNGTest" time="16.304"/>
 </testsuite>

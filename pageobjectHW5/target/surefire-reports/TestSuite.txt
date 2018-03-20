@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 32.505 sec <<< FAILURE! - in TestSuite
-initDriverTest(MyTestNGTest)  Time elapsed: 31.991 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-java.net.SocketException: Connection reset
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
-Driver info: driver.version: InternetExplorerDriver
-	at MyTestNGTest.initDriverTest(MyTestNGTest.java:22)
-Caused by: java.net.SocketException: Connection reset
-	at MyTestNGTest.initDriverTest(MyTestNGTest.java:22)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.948 sec - in TestSuite

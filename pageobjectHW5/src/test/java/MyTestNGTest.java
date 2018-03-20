@@ -14,7 +14,7 @@ public class MyTestNGTest extends BaseTest {
 
     @BeforeTest
     @Parameters("browser")
-    public  void initDriverTest(@Optional("IE") String browser) {
+    public  void initDriverTest(@Optional("chrome") String browser) {
         if(browser.startsWith("remote"))
             driver = getRemoteDriver(browser);
             else driver = getDriver(browser);
